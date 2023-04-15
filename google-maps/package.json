@@ -1,5 +1,5 @@
 {
-  "name": "@capacitor/google-maps",
+  "name": "@nfdoom/capacitor-google-maps",
   "version": "4.5.0",
   "description": "Google maps on Capacitor",
   "main": "dist/plugin.cjs.js",
