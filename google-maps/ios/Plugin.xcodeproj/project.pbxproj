@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,14 +21,6 @@
 		50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFFA52020D75100D50D53 /* Capacitor.framework */; };
 		50ADFFA82020EE4F00D50D53 /* CapacitorGoogleMapsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFFA72020EE4F00D50D53 /* CapacitorGoogleMapsPlugin.m */; };
 		50E1A94820377CB70090CE1A /* CapacitorGoogleMapsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1A94720377CB70090CE1A /* CapacitorGoogleMapsPlugin.swift */; };
-		793F411129EAE5FC00F8788B /* GoogleMaps.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793F411029EAE5FB00F8788B /* GoogleMaps.xcframework */; };
-		793F411229EAE5FC00F8788B /* GoogleMaps.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 793F411029EAE5FB00F8788B /* GoogleMaps.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		793F411729EAE60B00F8788B /* GoogleMapsBase.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793F411429EAE60B00F8788B /* GoogleMapsBase.xcframework */; };
-		793F411829EAE60B00F8788B /* GoogleMapsBase.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 793F411429EAE60B00F8788B /* GoogleMapsBase.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		793F411929EAE60B00F8788B /* GoogleMapsCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793F411529EAE60B00F8788B /* GoogleMapsCore.xcframework */; };
-		793F411A29EAE60B00F8788B /* GoogleMapsCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 793F411529EAE60B00F8788B /* GoogleMapsCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		793F411B29EAE60B00F8788B /* GoogleMapsM4B.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793F411629EAE60B00F8788B /* GoogleMapsM4B.xcframework */; };
-		793F411C29EAE60B00F8788B /* GoogleMapsM4B.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 793F411629EAE60B00F8788B /* GoogleMapsM4B.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,23 +32,6 @@
 			remoteInfo = Plugin;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		793F411329EAE5FC00F8788B /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				793F411A29EAE60B00F8788B /* GoogleMapsCore.xcframework in Embed Frameworks */,
-				793F411C29EAE60B00F8788B /* GoogleMapsM4B.xcframework in Embed Frameworks */,
-				793F411829EAE60B00F8788B /* GoogleMapsBase.xcframework in Embed Frameworks */,
-				793F411229EAE5FC00F8788B /* GoogleMaps.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0238AED627C931A40012930B /* GoogleMapCameraConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapCameraConfig.swift; sourceTree = "<group>"; };
@@ -76,11 +51,6 @@
 		50ADFFA72020EE4F00D50D53 /* CapacitorGoogleMapsPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapacitorGoogleMapsPlugin.m; sourceTree = "<group>"; };
 		50E1A94720377CB70090CE1A /* CapacitorGoogleMapsPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapacitorGoogleMapsPlugin.swift; sourceTree = "<group>"; };
 		5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
-		793F410F29EAE5DA00F8788B /* Build */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Build; path = Carthage/Build; sourceTree = "<group>"; };
-		793F411029EAE5FB00F8788B /* GoogleMaps.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMaps.xcframework; path = Carthage/Build/GoogleMaps.xcframework; sourceTree = "<group>"; };
-		793F411429EAE60B00F8788B /* GoogleMapsBase.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMapsBase.xcframework; path = Carthage/Build/GoogleMapsBase.xcframework; sourceTree = "<group>"; };
-		793F411529EAE60B00F8788B /* GoogleMapsCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMapsCore.xcframework; path = Carthage/Build/GoogleMapsCore.xcframework; sourceTree = "<group>"; };
-		793F411629EAE60B00F8788B /* GoogleMapsM4B.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMapsM4B.xcframework; path = Carthage/Build/GoogleMapsM4B.xcframework; sourceTree = "<group>"; };
 		91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.release.xcconfig"; sourceTree = "<group>"; };
 		96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,12 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793F411129EAE5FC00F8788B /* GoogleMaps.xcframework in Frameworks */,
 				50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */,
-				793F411929EAE60B00F8788B /* GoogleMapsCore.xcframework in Frameworks */,
-				793F411729EAE60B00F8788B /* GoogleMapsBase.xcframework in Frameworks */,
 				03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */,
-				793F411B29EAE60B00F8788B /* GoogleMapsM4B.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,11 +139,6 @@
 		A797B9EFA3DCEFEA1FBB66A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				793F411429EAE60B00F8788B /* GoogleMapsBase.xcframework */,
-				793F411529EAE60B00F8788B /* GoogleMapsCore.xcframework */,
-				793F411629EAE60B00F8788B /* GoogleMapsM4B.xcframework */,
-				793F411029EAE5FB00F8788B /* GoogleMaps.xcframework */,
-				793F410F29EAE5DA00F8788B /* Build */,
 				50ADFFA52020D75100D50D53 /* Capacitor.framework */,
 				3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */,
 				F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */,
@@ -208,8 +169,7 @@
 				50ADFF84201F53D600D50D53 /* Frameworks */,
 				50ADFF85201F53D600D50D53 /* Headers */,
 				50ADFF86201F53D600D50D53 /* Resources */,
-				27D2989C782FE41D4C77DB9C /* [CP] Copy Pods Resources */,
-				793F411329EAE5FC00F8788B /* Embed Frameworks */,
+				92164760FC1586E767CD9777 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,7 +189,7 @@
 				50ADFF8E201F53D600D50D53 /* Frameworks */,
 				50ADFF8F201F53D600D50D53 /* Resources */,
 				8E97F58B69A94C6503FC9C85 /* [CP] Embed Pods Frameworks */,
-				387C5C3A5D666D8067A600EA /* [CP] Copy Pods Resources */,
+				CE5D8C8CE28123CF08F2C87D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -318,42 +278,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		27D2989C782FE41D4C77DB9C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Plugin/Pods-Plugin-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plugin/Pods-Plugin-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		387C5C3A5D666D8067A600EA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PluginTests/Pods-PluginTests-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PluginTests/Pods-PluginTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8E97F58B69A94C6503FC9C85 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,6 +298,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PluginTests/Pods-PluginTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		92164760FC1586E767CD9777 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plugin/Pods-Plugin-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plugin/Pods-Plugin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AB5B3E54B4E897F32C2279DA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,6 +333,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE5D8C8CE28123CF08F2C87D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PluginTests/Pods-PluginTests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PluginTests/Pods-PluginTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -469,6 +431,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"${BUILT_PRODUCTS_DIR}/Capacitor\"",
 					"\"${BUILT_PRODUCTS_DIR}/CapacitorCordova\"",
+					"$(SRCROOT)/Carthage/Build\n$(SRCROOT)/Carthage/Build\n$(SRCROOT)/Carthage/Build",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -535,6 +498,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"${BUILT_PRODUCTS_DIR}/Capacitor\"",
 					"\"${BUILT_PRODUCTS_DIR}/CapacitorCordova\"",
+					"$(SRCROOT)/Carthage/Build",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -547,8 +511,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -610,11 +573,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PluginTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.PluginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -628,11 +587,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PluginTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.PluginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

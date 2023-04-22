@@ -1,6 +1,6 @@
 {
   "name": "@nfdoom/capacitor-google-maps",
-  "version": "4.5.0",
+  "version": "4.5.14",
   "description": "Google maps on Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -18,7 +18,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorGoogleMaps.podspec"
+    "NfdoomCapacitorGoogleMaps.podspec"
   ],
   "author": "Ionic <hi@ionicframework.com>",
   "license": "MIT",

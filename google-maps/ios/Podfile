@@ -9,12 +9,12 @@ end
 
 target 'Plugin' do
   capacitor_pods
-  # pod 'GoogleMaps'
-  pod 'Google-Maps-iOS-Utils'
+  pod 'GoogleMaps'
+  pod 'Google-Maps-iOS-Utils', :git => 'https://github.com/googlemaps/google-maps-ios-utils.git', :commit => '637954e5bcb2a879c11a6f2cead153a6bad5339f'
 end
 
 target 'PluginTests' do
   capacitor_pods
-  # pod 'GoogleMaps'
-  pod 'Google-Maps-iOS-Utils'
+  pod 'GoogleMaps'
+  pod 'Google-Maps-iOS-Utils', :git => 'https://github.com/googlemaps/google-maps-ios-utils.git', :commit => '637954e5bcb2a879c11a6f2cead153a6bad5339f'
 end
